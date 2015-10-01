@@ -1,0 +1,27 @@
+{
+  "name": "graphqlcypherquery",
+  "description": "streaming graphql cypherquery rest api",
+  "keywords": "graphql cypherquery neo4j",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jameskyburz/graphqlcypherquery.git"
+  },
+  "author": {
+    "name": "James Kyburz",
+    "email": "james.kyburz@gmail.com"
+  },
+  "main": "index.js",
+  "version": "1.0.0",
+  "scripts": {
+    "prepublish": "standard"
+  },
+  "dependencies": {
+    "cypherquery": "^1.0.0",
+    "graphql2cypher": "^2.0.1",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "standard": "^5.3.1"
+  },
+  "license": "MIT"
+}
