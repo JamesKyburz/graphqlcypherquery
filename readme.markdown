@@ -12,12 +12,18 @@ var query = require('graphqlcypherquery')(url)
 var params = { name: 'Peter' }
 
 q(`
-  person(name: <name>) {
-    id,
-    beer(edge: ":likes") {
+  person() as p {
+    properties {
       name,
-      award(edge: ":award") {
-        name
+      beer(relationship: ":likes") {
+        properties {
+          name,
+          award(relationship: ":award") as awards {
+            properties {
+              name
+            }
+          }
+        }
       }
     }
   }
@@ -25,8 +31,6 @@ q(`
 ```
 
 # install
-
-With [npm](https://npmjs.org) do:
 
 ```
 npm install graphqlcypherquery
