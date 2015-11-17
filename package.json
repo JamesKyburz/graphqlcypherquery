@@ -16,7 +16,7 @@
     "prepublish": "standard"
   },
   "dependencies": {
-    "cypherquery": "1.1.3",
+    "cypherquery": "1.1.4",
     "graphql2cypher": "3.0.1",
     "through2": "2.0.0"
   },
