@@ -18,7 +18,7 @@
   "dependencies": {
     "cypherquery": "1.1.14",
     "graphql2cypher": "3.0.2",
-    "through2": "2.0.0"
+    "through2": "2.0.1"
   },
   "devDependencies": {
     "standard": "6.0.4"
