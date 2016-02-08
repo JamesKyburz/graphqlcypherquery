@@ -11,7 +11,7 @@
     "email": "james.kyburz@gmail.com"
   },
   "main": "index.js",
-  "version": "2.0.14",
+  "version": "2.0.15",
   "scripts": {
     "prepublish": "standard"
   },
